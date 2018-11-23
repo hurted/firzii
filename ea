@@ -54,6 +54,8 @@ pkg update && pkg update
 pkg install git -y
 pkg install php -y
 git clone https://github.com/hurted/WaSpam
+echo -e $green" cara menjalankan ketik $cd WaSpam"
+echo -e $green" $php chat.php
 fi
 
 if $act = 02 ] || [ $act = 02 ]
@@ -64,6 +66,8 @@ pkg update && pkg install
 pkg install git -y
 pkg install php -y
 git clone https://github.com/hurted/gps-tracking
+echo -e $green" cara menjalankan ketik $cd gps-tracking
+echo -e $green" $php gps.php"
 fi
 
 if [ $act = 00 ] || [ $act = 00 ]
