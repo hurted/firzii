@@ -36,8 +36,7 @@ echo -e $green" Tools Gw Cuma Du yah"
 echo""
 echo -e $red"[+]=======================================[+]"
 echo -e $green" 01) Spam Chat Wa"
-echo -e $red"[+]=======================================[+]"
-echo -e $green" 02) spam telepon wa"
+
 echo -e $red"[+]=======================================[+]"
 echo -e $cyan" 03) Gps Tracking"
 echo -e $red"[+]=======================================[+]
@@ -55,23 +54,9 @@ pkg update && pkg update
 pkg install git -y
 pkg install php -y
 git clone https://github.com/hurted/WaSpam
-cd WaSpam
-php chat.php
 fi
 
-if [ $act = 02 ] || [ $act = 02 ]
-then
-clear
-echo -e $cyan" Jonedd Dasar zz"
-pkg update && pkg upgrade
-pkg install git -y
-pkg install php -y
-git clone https://github.com/hurted/WaSpam
-cd WaSpam
-php call.php
-fi
-
-if [ $act = 03 ] || [ $act = 03 ]
+if $act = 02 ] || [ $act = 02 ]
 then
 clear
 echo -e $red" cewek bangsat nolak gw mulu"
@@ -79,8 +64,6 @@ pkg update && pkg install
 pkg install git -y
 pkg install php -y
 git clone https://github.com/hurted/gps-tracking
-cd gps-tracking
-php gps.php
 fi
 
 if [ $act = 00 ] || [ $act = 00 ]
