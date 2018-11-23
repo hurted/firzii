@@ -1,0 +1,102 @@
+#!/bin/bash
+
+#bersihkan layar
+
+clear
+blue='\e[033;31m'
+red='\e[033;32m'
+green='\e[033;33m'
+cyan='\e[033;34m'
+yellow='\e[033;35m'
+white='\e[033;36m'
+
+###################################################
+# CTRL C
+###################################################
+trap ctrl_c INT
+ctrl_c() {
+clear
+echo -e $red"[#]> (Ctrl + C ) Detected, Trying To Exit ... "
+sleep 1
+echo ""
+echo -e $lightgreen"[#]> Tools Berfaedah ... "
+sleep 1
+echo ""
+echo -e $white"[#]> Mr.HurT3d Atau Firzii"
+read enter
+exit
+}
+echo -e $red"====================================="
+echo -e $cyan"=      Nama:Firzii Firmansyah     =="
+echo -e $cyan"=      Jones: Iyaa gayn           =="
+echo -e $white"==================================="
+
+echo -e $green" Tools Gw Cuma Du yah"
+
+echo""
+echo -e $red"[+]=======================================[+]"
+echo -e $green" 01) Spam Chat Wa"
+echo -e $red"[+]=======================================[+]"
+echo -e $green" 02) spam telepon wa"
+echo -e $red"[+]=======================================[+]"
+echo -e $cyan" 03) Gps Tracking"
+echo -e $red"[+]=======================================[+]
+echo -e $red"  00) Keluar sterr... "
+echo -e $yellow"[+]=================================[+]"
+echo""
+read -p "[Mr.HurT3d@Firzik]> " act;
+
+if [ $act = 01 ] || [ $act = 01 ]
+then
+clear
+echo -e $lightgreen" Tunggu Zii wkek"
+sleep 1
+pkg update && pkg update
+pkg install git -y
+pkg install php -y
+git clone https://github.com/hurted/WaSpam
+cd WaSpam
+php chat.php
+fi
+
+if [ $act = 02 ] || [ $act = 02 ]
+then
+clear
+echo -e $cyan" Jonedd Dasar zz"
+pkg update && pkg upgrade
+pkg install git -y
+pkg install php -y
+git clone https://github.com/hurted/WaSpam
+cd WaSpam
+php call.php
+fi
+
+if [ $act = 03 ] || [ $act = 03 ]
+then
+clear
+echo -e $red" cewek bangsat nolak gw mulu"
+pkg update && pkg install 
+pkg install git -y
+pkg install php -y
+git clone https://github.com/hurted/gps-tracking
+cd gps-tracking
+php gps.php
+fi
+
+if [ $act = 00 ] || [ $act = 00 ]
+then
+echo -e $red" Dah Yah Bujank.. "
+sleep 1
+echo -e $lightgreen" Thank You sayangQ (^_^) "
+sleep 1
+exit
+fi
+
+
+
+
+
+
+
+
+
